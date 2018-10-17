@@ -681,8 +681,9 @@
 >16     lelong   x       {strlen:%d}
 >20     string   x       first file name: "{string}"
 
-# QNX6 filesystem
-0       string   \xEB\x10\x90\x00    QNX6 filesystem
+# QNX filesystem(s)
+0        string   \xEB\x10\x90\x00    QNX4 filesystem bootblock 
+0        string   \x68\x19\x11\x22    QNX6 filesystem superblock
 
 # QNX IFS
 0       string   \xEB\x7E\xFF\x00    QNX IFS
